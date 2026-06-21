@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digital Kitapçık — KKTC Sürücü Kılavuzu</title>
+<meta name="description" content="Digital Kitapçık: KKTC trafik levhaları, yol çizgileri ve sürücü kılavuzu. Öğren, ezberle, test çöz. 6 dilde, tamamen çevrimdışı.">
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="Digital Kitapçık"> Digital Kitapçık</a>
+    <div class="spacer"></div>
+    <nav class="nav-links">
+      <a href="#features"><span data-tr>Özellikler</span><span data-en>Features</span></a>
+      <a href="privacy.html"><span data-tr>Gizlilik</span><span data-en>Privacy</span></a>
+      <a href="terms.html"><span data-tr>Şartlar</span><span data-en>Terms</span></a>
+      <a href="#contact"><span data-tr>İletişim</span><span data-en>Contact</span></a>
+    </nav>
+    <div class="lang-toggle">
+      <button id="btn-tr" class="active" onclick="setLang('tr')">TR</button>
+      <button id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <img class="logo" src="assets/logo.png" alt="Digital Kitapçık">
+  <h1>Digital Kitapçık</h1>
+  <p class="tag">
+    <span data-tr>KKTC trafik levhaları, yol çizgileri ve sürücü kılavuzu. Öğren, ezberle, test çöz — tamamen çevrimdışı, 6 dilde.</span>
+    <span data-en>TRNC traffic signs, road markings and driver's handbook. Learn, memorize, take quizzes — fully offline, in 6 languages.</span>
+  </p>
+  <div class="stores">
+    <a class="btn" href="#contact"><span data-tr>İletişim</span><span data-en>Contact</span></a>
+    <a class="btn ghost" href="privacy.html"><span data-tr>Gizlilik Politikası</span><span data-en>Privacy Policy</span></a>
+  </div>
+</header>
+
+<section class="block" id="features">
+  <div class="wrap">
+    <h2><span data-tr>Neler var?</span><span data-en>What's inside?</span></h2>
+    <p class="sub"><span data-tr>Sürücü adayları için her şey bir uygulamada.</span><span data-en>Everything a driver candidate needs in one app.</span></p>
+    <div class="features">
+      <div class="card"><div class="ico">🚸</div><h3><span data-tr>Trafik Levhaları</span><span data-en>Traffic Signs</span></h3><p><span data-tr>Kategorilere ayrılmış levhalar, açıklamalı.</span><span data-en>Categorized signs with explanations.</span></p></div>
+      <div class="card"><div class="ico">🛣️</div><h3><span data-tr>Yol Çizgileri</span><span data-en>Road Markings</span></h3><p><span data-tr>Animasyonlu anlatım ve testi.</span><span data-en>Animated lessons with a quiz.</span></p></div>
+      <div class="card"><div class="ico">📝</div><h3><span data-tr>Testler</span><span data-en>Quizzes</span></h3><p><span data-tr>Yazılı ve sözlü sınav alıştırmaları.</span><span data-en>Written and oral exam practice.</span></p></div>
+      <div class="card"><div class="ico">🎴</div><h3><span data-tr>Flashcard</span><span data-en>Flashcards</span></h3><p><span data-tr>Kartlarla hızlı ezber.</span><span data-en>Fast memorization with cards.</span></p></div>
+      <div class="card"><div class="ico">📖</div><h3><span data-tr>Başlangıç Rehberi</span><span data-en>Beginner Guide</span></h3><p><span data-tr>Sınav öncesi temel bilgiler.</span><span data-en>Essentials before the exam.</span></p></div>
+      <div class="card"><div class="ico">📊</div><h3><span data-tr>İstatistik</span><span data-en>Statistics</span></h3><p><span data-tr>İlerlemeni cihazında takip et.</span><span data-en>Track your progress on your device.</span></p></div>
+    </div>
+    <div class="langs-row">
+      <span class="chip">Türkçe</span><span class="chip">English</span><span class="chip">Русский</span><span class="chip">Українська</span><span class="chip">اردو</span><span class="chip">فارسی</span>
+    </div>
+  </div>
+</section>
+
+<section class="block legal" id="contact" style="background:#fff;border-top:1px solid var(--line)">
+  <div class="wrap">
+    <h2><span data-tr>İletişim & Destek</span><span data-en>Contact & Support</span></h2>
+    <p class="sub"><span data-tr>Soru, öneri veya bir sorun için bize ulaşın.</span><span data-en>Reach us for questions, suggestions or any issue.</span></p>
+    <p><strong>E-posta / Email:</strong> <a href="mailto:[E-POSTA]">[E-POSTA]</a></p>
+    <p><strong><span data-tr>Geliştirici</span><span data-en>Developer</span>:</strong> Kodla Digital Agency</p>
+    <p><strong><span data-tr>Uygulama</span><span data-en>App</span>:</strong> Digital Kitapçık (com.kodladigitalagency.otoassistbook)</p>
+  </div>
+</section>
+
+<footer>
+  <div class="flinks">
+    <a href="privacy.html"><span data-tr>Gizlilik Politikası</span><span data-en>Privacy Policy</span></a>
+    <a href="terms.html"><span data-tr>Kullanım Şartları</span><span data-en>Terms of Use</span></a>
+    <a href="#contact"><span data-tr>İletişim</span><span data-en>Contact</span></a>
+  </div>
+  <div>© <span id="year"></span> Kodla Digital Agency · Digital Kitapçık</div>
+</footer>
+
+<script src="lang.js"></script>
+</body>
+</html>
