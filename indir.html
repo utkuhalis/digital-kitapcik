@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Digital Kitapçık — İndir / Download</title>
+<meta name="description" content="Digital Kitapçık'ı indir: iPhone için App Store, Android için Google Play. Download Digital Kitapçık from the App Store or Google Play.">
+<link rel="icon" href="assets/icon.png">
+<meta property="og:title" content="Digital Kitapçık — İndir">
+<meta property="og:description" content="KKTC trafik levhaları, yol çizgileri ve sürücü kılavuzu. App Store ve Google Play'de.">
+<meta property="og:image" content="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg1:#0b2a4a; --bg2:#12365f; --accent:#1f8fff; --accent2:#0f6fd6;
+    --card:rgba(255,255,255,.07); --line:rgba(255,255,255,.14); --txt:#eef4fb; --muted:#a9c2dd;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:'Poppins',system-ui,-apple-system,sans-serif;
+    background:radial-gradient(1200px 600px at 50% -10%,var(--bg2),var(--bg1));
+    color:var(--txt);min-height:100dvh;display:flex;align-items:center;justify-content:center;
+    padding:32px 20px;text-align:center;
+  }
+  .box{width:100%;max-width:420px}
+  .logo{width:132px;height:132px;border-radius:28px;object-fit:contain;background:#fff;padding:14px;
+    box-shadow:0 18px 50px rgba(0,0,0,.4);margin-bottom:22px}
+  h1{font-size:1.7rem;font-weight:700;margin-bottom:6px;letter-spacing:.2px}
+  .tag{color:var(--muted);font-size:.98rem;line-height:1.5;margin-bottom:26px}
+  .stat{color:var(--muted);font-size:.9rem;margin:18px 0 4px;min-height:1.2em}
+  .btns{display:flex;flex-direction:column;gap:12px}
+  a.store{
+    display:flex;align-items:center;justify-content:center;gap:12px;
+    padding:15px 18px;border-radius:16px;text-decoration:none;font-weight:600;font-size:1.05rem;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;
+    border:1px solid rgba(255,255,255,.18);transition:transform .15s ease,box-shadow .15s ease;
+    box-shadow:0 10px 26px rgba(31,143,255,.28)
+  }
+  a.store:active{transform:scale(.98)}
+  a.store svg{width:26px;height:26px;flex:0 0 auto}
+  a.store small{display:block;font-weight:400;font-size:.72rem;opacity:.85;margin-bottom:1px}
+  a.store b{font-weight:600;font-size:1rem}
+  .site{margin-top:26px}
+  .site a{color:var(--muted);text-decoration:none;font-size:.9rem;border-bottom:1px dashed rgba(255,255,255,.25);padding-bottom:2px}
+  .spin{display:inline-block;width:15px;height:15px;border:2px solid rgba(255,255,255,.35);
+    border-top-color:#fff;border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px;margin-right:8px}
+  @keyframes sp{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+  <div class="box">
+    <img class="logo" src="assets/logo.png" alt="Digital Kitapçık">
+    <h1>Digital Kitapçık</h1>
+    <p class="tag">
+      KKTC trafik levhaları, yol çizgileri ve sürücü kılavuzu.<br>
+      TRNC traffic signs &amp; driver's handbook.
+    </p>
+
+    <p class="stat" id="stat"></p>
+
+    <div class="btns">
+      <a class="store" id="ios" href="https://apps.apple.com/us/app/digital-kitap%C3%A7%C4%B1k/id6788721372">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.365 1.43c0 1.14-.417 2.2-1.114 2.98-.75.84-1.98 1.49-3.02 1.41-.13-1.1.42-2.28 1.09-3.02.75-.84 2.05-1.47 3.04-1.37zM20.5 17.02c-.55 1.27-.82 1.84-1.53 2.96-.99 1.57-2.39 3.52-4.12 3.53-1.54.02-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.05-1.78-4.04-3.35-2.77-4.4-3.06-9.56-1.35-12.3 1.21-1.95 3.13-3.09 4.93-3.09 1.83 0 2.98 1.01 4.5 1.01 1.47 0 2.37-1.01 4.49-1.01 1.6 0 3.3.87 4.51 2.38-3.96 2.17-3.32 7.82.23 9.06z"/></svg>
+        <span><small>Download on the</small><b>App Store</b></span>
+      </a>
+      <a class="store" id="android" href="https://play.google.com/store/apps/details?id=com.kodladigitalagency.otoassistbook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.2 13.9 12 3.6 21.8c-.35-.2-.6-.6-.6-1.05V3.25c0-.45.25-.85.6-1.05zM15.3 13.4l2.55 2.42-9.6 5.42 7.05-7.84zM18.9 9.5c.55.32.9.9.9 1.55s-.35 1.23-.9 1.55l-1.9 1.08-2.75-2.63 2.75-2.63 1.9 1.08zM8.25 2.76l9.6 5.42-2.55 2.42-7.05-7.84z"/></svg>
+        <span><small>GET IT ON</small><b>Google Play</b></span>
+      </a>
+    </div>
+
+    <p class="site"><a href="index.html">digital-kitapcik &middot; web sitesi</a></p>
+  </div>
+
+  <script>
+    (function () {
+      var IOS = "https://apps.apple.com/us/app/digital-kitap%C3%A7%C4%B1k/id6788721372";
+      var ANDROID = "https://play.google.com/store/apps/details?id=com.kodladigitalagency.otoassistbook";
+      var ua = navigator.userAgent || navigator.vendor || window.opera || "";
+      var isIOS = /iPad|iPhone|iPod/.test(ua) ||
+                  (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      var isAndroid = /android/i.test(ua);
+      var stat = document.getElementById("stat");
+
+      function go(url, label) {
+        stat.innerHTML = '<span class="spin"></span>' + label;
+        // Kısa gecikme: kullanıcı yönlendirmeyi görsün, engellenirse butonlar zaten hazır.
+        setTimeout(function () { window.location.replace(url); }, 700);
+      }
+
+      if (isAndroid) {
+        go(ANDROID, "Google Play'e yönlendiriliyorsun…");
+      } else if (isIOS) {
+        go(IOS, "App Store'a yönlendiriliyorsun…");
+      } else {
+        stat.textContent = "Cihazını seç / Choose your platform";
+      }
+    })();
+  </script>
+</body>
+</html>
